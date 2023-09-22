@@ -56,7 +56,7 @@ retornado.
 5. Criar banco de dados MongoDB.
 6. Feito isso deverá ser criada uma collection chamada "users" para inclusão dos usuários.
 7. Para cada conversão, realizar a inserção dos dados do usuário na collection "users". Não será permitido a inclusão de usuários já existentes no banco.
-8. Ao final do processamento de todos os usuários deverá ser programado o envio de um e-mail contendo a listagem dos usuários inseridos no banco de dados com sucesso. Realizar o envio para o e-mail: people@linkapi.com.br
+8. Ao final do processamento de todos os usuários deverá ser programado o envio de um e-mail contendo um report dos usuários processados pela rotina. Anexe ao seu repositório evidências do envio do e-mail.
 
 ## Pontos de atenção
 - Para a criação do banco de dados MongoDB, é preferível a utilização de Docker mas existem serviços
@@ -86,7 +86,7 @@ MongoDB.
 
 
 ## Pontos de atenção
-- Para utilizar os recursos da API do GoFile, é necessária a criação de uma conta utilizando e-mail
+- Para utilizar os recursos da API do GoFile, é necessária a criação de uma conta utilizando e-mail.
 - A documentação da API GoFile pode ser encontrada em GoFile - API Docs (https://gofile.io/api).
 - A automação precisa ser resiliente a falhas de execução.
 
