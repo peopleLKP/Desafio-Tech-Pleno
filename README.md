@@ -18,14 +18,17 @@ desclassificado automaticamente.
 - Requisitos realizados.
 - Desacoplamento de código.
 - Legibilidade de código.
-- Boas práticas de desenvolvimento de API RESTful.
+- Boas práticas de desenvolvimento de API RESTful, utilize os links enviados como referência para aplicá-las em seu projeto.
+- Mapeamento dos campos.
+- Modelagem de dados.
 - Tratamento de erros das aplicações.
 - Performance das aplicações.
 - Arquitetura adotada no desenvolvimento das aplicações.
 - Documentação das aplicações.
 - Exposição de dados sensíveis no código.
 - Agendamento de rotinas.
-- Logs.
+- Logs das aplicações.
+- Testes unitários ou de integração.
 
 # Projeto 1 - Automação de Conversão
 
