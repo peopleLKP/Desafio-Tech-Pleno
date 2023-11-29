@@ -125,7 +125,8 @@ Este endpoint deve retornar todos os arquivos armazenados do MongoDB da collecti
 
 - Caso o usuário passe um nome de pasta que ainda não foi criada, através da rota de criação de pastas,
 retornar um erro solicitando que o mesmo execute esta operação. Mesma regra se aplica ao arquivo.
-- O endpoint de busca de arquivos vai ser bastante utilizado sendo necessário performance no tempo de retorno das informações. 
+- O endpoint de busca de arquivos vai ser bastante utilizado sendo necessário performance no tempo de retorno das informações.
+- Não se preocupem com o aviso de ser necessário uma conta premium para acessar os recursos da API GoFile, basta apenas criar uma conta gratuita que já é possível acessar os recursos.
 
 ### Links que podem ser úteis no desenvolvimento:
 
