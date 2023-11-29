@@ -1,4 +1,4 @@
-# Desafio Técnico LinkApi - Pleno
+# Desafio Técnico LinkApi
 ## Instruções
 - Leia atentamente as instruções abaixo para realização do teste proposto.
 - Desenvolva e versione os projetos usando git.
@@ -10,7 +10,7 @@
 ## ⚠ IMPORTANTE - CRITÉRIOS DE DESCLASSIFICAÇÃO ⚠
 
 - O teste em questão deve ser feito utilizando a engine NodeJS (Vanilla JavaScript ou
-TypeScript), caso contrário, o candidato será desclassificado automaticamente.
+TypeScript), caso contrário, o candidato será desclassificado automaticamente. Recomendamos evitar o uso do framework Nest.js.
 - O repositório deve estar com o compartilhamento privado, caso contrário, o candidato será
 desclassificado automaticamente.
 
@@ -29,6 +29,7 @@ desclassificado automaticamente.
 - Agendamento de rotinas.
 - Logs das aplicações.
 - Testes unitários ou de integração.
+- Recursos de paginação.
 
 # Projeto 1 - Automação de Conversão
 
