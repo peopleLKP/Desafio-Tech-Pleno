@@ -10,7 +10,7 @@
 ## ⚠ IMPORTANTE - CRITÉRIOS DE DESCLASSIFICAÇÃO ⚠
 
 - O teste em questão deve ser feito utilizando a engine NodeJS (Vanilla JavaScript ou
-TypeScript), caso contrário, o candidato será desclassificado automaticamente. Recomendamos evitar o uso do framework Nest.js.
+TypeScript), caso contrário, o candidato será desclassificado automaticamente. Evitar o uso de frameworks como o Nest.js.
 - O repositório deve estar com o compartilhamento privado, caso contrário, o candidato será
 desclassificado automaticamente.
 
@@ -30,6 +30,7 @@ desclassificado automaticamente.
 - Logs das aplicações.
 - Testes unitários ou de integração.
 - Recursos de paginação.
+- Segurança.
 
 # Projeto 1 - Automação de Conversão
 
@@ -96,8 +97,7 @@ MongoDB.
 
 # Projeto 3 - API GATEWAY
 ### Objetivo
-Desenvolvimento de uma automação agendada em NodeJs para realizar o envio de arquivos gerados a
-partir dos documentos populados no projeto anterior.
+Construção de uma API RESTful que realize o gerenciamento de arquivos na API do GoFile.
 
 ### Endpoints
 
@@ -123,8 +123,10 @@ Este endpoint deve retornar todos os arquivos armazenados do MongoDB da collecti
 
 ## Pontos de atenção:
 
-- Caso o usuário passe um nome de pasta que ainda não foi criada, através da rota de criação de pastas,
-retornar um erro solicitando que o mesmo execute esta operação. Mesma regra se aplica ao arquivo.
+- Caso o usuário passe um nome de pasta que ainda não foi criada, através da rota de criação de arquivos,
+retornar um erro solicitando que o mesmo execute esta operação.
+- Caso o usuário passe um nome de pasta ou de arquivo que ainda não existir no banco, retornar um erro
+solicitando que o mesmo execute estas operações.
 - O endpoint de busca de arquivos vai ser bastante utilizado sendo necessário performance no tempo de retorno das informações.
 - Não se preocupem com o aviso de ser necessário uma conta premium para acessar os recursos da API GoFile, basta apenas criar uma conta gratuita que já é possível acessar os recursos.
 
